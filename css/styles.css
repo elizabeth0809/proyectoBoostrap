@@ -150,8 +150,10 @@ p{
     background-position: center center;
     min-height: 400px;
 }
+
 .productos .card{
-    border: none;
+    border: #006d33 solid 1px;
+    
 }
 .productos .card a{
     color: black;
@@ -211,4 +213,27 @@ p{
 .contenido-principal p{
     font-size: 1.2rem;
     line-height: 2.2rem;
+}
+aside{
+    background-color: #006d33;
+    color: #fff;
+}
+/**Sercicos acordeon**/
+#servicios .card-header{
+    background-color: #006d33;
+    padding: 0 1.25rem;
+}
+#servicios .card-header .btn-link{
+    color: #ffffff;
+    font-family: fuente;
+    font-size: 1.8rem;
+}
+
+aside .nuevos{
+    padding: 1rem;
+}
+aside .cupon{
+    border-style: dashed;
+    
+    padding: 1.5rem;
 }

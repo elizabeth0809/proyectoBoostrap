@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <title>Contacto | Restaurant Libanes</title>
   </head>
   <body>
     <!-- Add Your HTML here -->
     <header class="encabezado-sitio container">
       <div class="row justify-content-md-between">
         <div class="col-lg-4">
-          <a href="index.html">
+          <a href="index.php">
           <img src="img/vagon.jpg" class="img-fluid mx-auto d-block">
           </a>
         </div>
@@ -29,75 +30,65 @@
        </nav>
       </div>
       </div>
-    </header>
-    <div class="navegacion">
+    </header><div class="navegacion">
       <nav class="nav-principal navbar navbar-expand-md navbar-light bg-faded">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav_principal" aria-label="Mostrar Navegacion">
           <span class="navbar-toggler-icon"></span>
         </button>
         
-        <a href="#" class="navbar-brand d-lg-none">Vagon Libanes Restaurant</a>
+        <a href="#" class="navbar-brand d-lg-none">  Restaurant Libanes</a>
         <div class="container">
           <div class="collapse-navbar-collapse w-100" id="nav_principal">
           <ul class="nav nav-justified w-100 flex-column flex-sm-row">
-            <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
-            <li class="nav-item"><a href="servicio.html" class="nav-link">Servicios</a></li>
-            <li class="nav-item"><a href="productos.html" class="nav-link">Productos</a></li>
-            <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
-            <li class="nav-item"><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+              
+            <li class="nav-item  "><a href="index.php" class="nav-link">Inicio</a></li>
+            <li class="nav-item  "><a href="servicio.php" class="nav-link">Servicios</a></li>
+            <li class="nav-item  "><a href="productos.php" class="nav-link">Productos</a></li>
+            <li class="nav-item  "><a href="contacto.php" class="nav-link">Contacto</a></li>
+            <li class="nav-item  "><a href="nosotros.php" class="nav-link">Nosotros</a></li>
+
           </ul><!---lista-->
           </div><!---Collapse-->
         </div><!---container-->
       </nav>
-    </div>
-    <div class="container pt-4">
+    </div>    <div class="container pt-4">
       <div class="row no-gutters">
         <div class="col-12 hero">
-          <img src="img/noso.jpg" class="img-fluid">
-        <h2 class="text-uppercase d-none d-md-block py-3 px-5">Nosotros</h2>
+          <img src="img/vagon01.jpg" class="img-fluid">
+        <h2 class="text-uppercase d-none d-md-block py-3 px-5">Contacto</h2>
+        </div>
+        <div class="container pt-4">
+          <div class="row justify-content-center">
+            <main class="col-lg-8 contenido-principal">
+              <h2 class="d-block d-md-none text-uppercase text-center">
+                Contacto
+              </h2>
+              <form class="pt-5 mt-5 formulario-contacto needs-validation" novalidate>
+                <div class="form-group">
+                  <label for="nombre">Nombre</label>
+                  <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+                <div class="invalid-feedback">El nombre es obligatorio</div>
+                </div>
+                <!--<div class="form-group">
+                 <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Tu correo" required>
+                  <div class="invalid-feedback">El email es obligatorio</div>
+                </div>-->
+                <div class="form-group">
+                  <label for="mensaje">Mensaje:</label>
+                  <textarea id="mensaje" class="form-control" cols="20" rows="5" required></textarea>
+                  <div class="invalid-feedback">El mensaje es obligatorio</div>
+                </div>
+                <input type="submit" class="btn btn-primary text-uppercase" value="Enviar">
+                
+              </form>
+            </main>
+          </div>
         </div>
       </div>
     </div>
-<div class="container pt-4">
-  <div class="row">
-    <main class="col-lg-8 contenido-principal">
-      <h2 class="d-block d-md-none text-uppercase text-center ">
-        Nosotros
-      </h2>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum sequi, minima eum explicabo odio deserunt at placeat sed nisi deleniti aliquid quo temporibus nemo est illo iste nihil facere! Consectetur.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum sequi, minima eum explicabo odio deserunt at placeat sed nisi deleniti aliquid quo temporibus nemo est illo iste nihil facere! Consectetur.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum sequi, minima eum explicabo odio deserunt at placeat sed nisi deleniti aliquid quo temporibus nemo est illo iste nihil facere! Consectetur.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum sequi, minima eum explicabo odio deserunt at placeat sed nisi deleniti aliquid quo temporibus nemo est illo iste nihil facere! Consectetur.
 
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident unde id ad quia tempora possimus nam, recusandae nesciunt voluptates dicta tempore! Dolor ullam hic, ipsum praesentium pariatur doloremque facilis libero.</p>
-        
-        <h2 class="text-center mt-4">
-          <span class=" d-block">
-            Conoce nuestro
-          </span> Menu
-          <div class="imagenes pt-4">
-            <a href="#" data-target="#imagen1" data-toggle="modal">
-              <img src="img/mni.jpg" alt="">
-            </a>
-            <a href="#" data-target="#imagen2" data-toggle="modal">
-              <img src="img/mini2.jpg" alt="">
-            </a>
-            <a href="#" data-target="#imagen3" data-toggle="modal">
-              <img src="img/mini3.jpg" alt="">
-            </a>
-            <div class="modal fade" id="imagen1" tabindex="-1" role="dialog"></div>
-          </div>
-        </h2>
-      </main>
-    <aside class="col-4- pt-4 pt-lg-0">
-      <div class="sidebar">
-        <h2 class="text-center text-uppercase mt-4">Algo aqui</h2>
-      </div>
-    </aside>
-  </div>
-</div>
-<footer class="footer-sitio pt-3 mt-5">
+    <footer class="footer-sitio pt-3 mt-5">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
